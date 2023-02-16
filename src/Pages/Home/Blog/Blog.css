@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
 .blog-img {
-  height: 350px;
-  width: 400px;
-  border-radius: 8px;
+  height: 400px;
+  width: 420px;
+  border-radius: 10px;
 }
 .blog-description {
   border: 1px solid lightgray;
