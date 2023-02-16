@@ -11,7 +11,7 @@ const Blogs = () => {
   }, []);
   return (
     <div>
-      <h2 className="blogs-title mt-5 mb-3">Blogs</h2>
+      <h2 className="blogs-title mt-3 mb-3">Blogs</h2>
 
       <div className="blogs-container">
         {blogs.map((blog) => (
