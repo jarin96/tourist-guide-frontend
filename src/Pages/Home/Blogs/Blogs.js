@@ -10,7 +10,7 @@ const Blogs = () => {
       .then((data) => setBlogs(data));
   }, []);
   return (
-    <div>
+    <div className="container">
       <div className="row">
         <h2 className="blogs-title mt-3 mb-3">Blogs</h2>
 
