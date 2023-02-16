@@ -1,5 +1,11 @@
 .blog-img {
-  height: 300px;
-  width: 200px;
+  height: 350px;
+  width: 350px;
   border-radius: 8px;
+}
+.blog-description {
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }

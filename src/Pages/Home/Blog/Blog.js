@@ -3,13 +3,13 @@ import "./Blog.css";
 const Blog = ({ blog }) => {
   const { title, description, img } = blog;
   return (
-    <div>
+    <div className="blog-description">
       <img className="blog-img" src={img} alt="" />
-      {/* <h2> {title}</h2> */}
-      {/* <p>
+      <h2> {title}</h2>
+      <p>
         <small>{description}</small>
       </p>
-      <button>Read More</button> */}
+      <button>Read More</button>
     </div>
   );
 };
